@@ -1,1 +1,11 @@
 Second file for test
+
+Line added from Github UI
+
+echo "# demodevops1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/anilpandita007/demodevops1.git
+git push -u origin main
